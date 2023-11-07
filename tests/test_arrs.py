@@ -1,6 +1,5 @@
 from utils import arrs
 
-
 def test_get():
     assert arrs.get([1, 2, 3], 2, "test") == 3
     assert arrs.get([], 0, "test") == "test"
